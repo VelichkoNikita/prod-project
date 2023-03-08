@@ -6,6 +6,7 @@ import { getCounterValue } from '../model/selectors/getCounterValue/getCounterVa
 
 export const Counter = () => {
     const dispatch = useDispatch();
+
     const counterValue = useSelector(getCounterValue);
     const { t } = useTranslation();
 
