@@ -75,9 +75,7 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
 
     useEffect(() => {
         if (__PROJECT__ !== 'storybook') {
-            if (id != null) {
-                dispatch(fetchArticleById(id));
-            }
+            dispatch(fetchArticleById(id));
         }
     }, [dispatch, id]);
 
