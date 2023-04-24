@@ -63,6 +63,7 @@ module.exports = {
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
         'vel-plugin/path-checker': ['error', { alias: '@' }],
+        'vel-plugin/public-api-imports': ['error', { alias: '@' }],
     },
     globals: {
         __IS_DEV__: true,
