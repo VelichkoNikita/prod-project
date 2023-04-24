@@ -792,6 +792,19 @@
       "rate": 3,
       "feedback": "",
       "id": "bcPnbbZ"
+    },
+    {
+      "userId": "1",
+      "articleId": "4",
+      "rate": 5,
+      "id": "Ceue2LB"
+    },
+    {
+      "userId": "1",
+      "articleId": "14",
+      "rate": 5,
+      "feedback": "",
+      "id": "Afqf9y-"
     }
   ],
   "profile-ratings": [
