@@ -63,7 +63,13 @@ module.exports = {
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
         'vel-plugin/path-checker': ['error', { alias: '@' }],
-        'vel-plugin/public-api-imports': ['error', { alias: '@' }],
+        'vel-plugin/public-api-imports': [
+            'error',
+            {
+                alias: '@',
+                testFilesPatterns: ['**/*.test.*', '**/*.story.*', '**/StoreDecorator.tsx'],
+            },
+        ],
     },
     globals: {
         __IS_DEV__: true,
