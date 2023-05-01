@@ -79,10 +79,10 @@ jobs:
 #        run: npm run test:ui:ci
         if: always()
       - name: unit testing
-        if: always()
+#        if: always()
         run: npm run test:unit
-      - name: Generate HTML report
-        run: npm run test:ui:report
+#      - name: Generate HTML report
+#        run: npm run test:ui:report
         if: always()
       - name: move loki
         run: mv .loki reports/
