@@ -729,13 +729,13 @@
   "profile": [
     {
       "id": "1",
-      "first": "timur11",
+      "first": "timur",
       "lastname": "ulbi",
       "age": 465,
       "currency": "RUB",
       "country": "Belarus",
       "city": "Moscow",
-      "username": "admin2137",
+      "username": "admin213",
       "avatar": "https://yt3.ggpht.com/ytc/AKedOLTYUJxG8Hu036PQ_TXpMLq2fG8Kj8NZI4h0lbn_3g=s900-c-k-c0x00ffffff-no-rj"
     },
     {
@@ -792,19 +792,6 @@
       "rate": 3,
       "feedback": "",
       "id": "bcPnbbZ"
-    },
-    {
-      "userId": "1",
-      "articleId": "4",
-      "rate": 5,
-      "id": "Ceue2LB"
-    },
-    {
-      "userId": "1",
-      "articleId": "14",
-      "rate": 5,
-      "feedback": "",
-      "id": "Afqf9y-"
     }
   ],
   "profile-ratings": [
